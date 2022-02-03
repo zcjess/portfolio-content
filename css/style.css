@@ -25,12 +25,16 @@ h1{
 
 /*Style the images*/
 img{
-    height: 200px;
-    width:auto;
+    height: auto;
+    width:200px;
     border: 3px solid blue;
     padding: 25px;
     border-radius: 10px;
     margin: 10px;
+}
+img:hover {
+	filter:grayscale();
+	border: dashed;
 }
 
 /*Make the h2 heading match h1*/
